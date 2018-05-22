@@ -1,0 +1,135 @@
+/*
+0... 767   .col-xs Телефоны
+768... 991 .col-sm Планшеты
+992...1199 .col-md Настольные
+1200...*   .col-lg Настольные
+*/
+/*
+sans-serif - без засечек
+serif - с засечками
+Используемые шрифты:
+	font-family: "Raleway", sans-serif; https://fonts.google.com/specimen/Raleway
+	font-family: "Open Sans", sans-serif; https://fonts.google.com/specimen/Open+Sans
+	font-family: "FontAwesome", sans-serif;  https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0
+*/
+
+/*------------------------------------------------------------
+ * Общее
+ */
+.link1{
+
+}
+
+/*------------------------------------------------------------
+ * Навигация
+ */
+.container--nav{
+	background-color: #000;
+	color: inherit;
+}
+.nav{
+	color: #ccc;
+	background-color: inherit;
+}
+/*------------------------------------------------------------
+ * header
+ */
+.navbar-link{
+	color: #ccc;
+	background-color: inherit;
+}
+
+.row--header{
+	position: relative;
+	/* height: 1000px; */
+}
+.row--header:after{
+	content: '';
+	display: block;
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url('img/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/* opacity: 0.52; */
+	z-index: -1;
+}
+.header__col1{
+	font-family: "Raleway", sans-serif;
+	color: #ccc;
+	background-color: inherit;
+}
+.header__logo{
+	margin-top: 6.875rem;/* 110px*/
+}
+.header__title{
+	margin-top: 2rem; /*32px*/
+	font-size: 2.25rem;/*36px*/
+	/*max-width: 27.5rem;*/ /*439px~440px*/
+	max-width: 34.5rem
+}
+.header__title::after{
+	content: '';
+	display: block;
+	width: 62px;
+	border-bottom: 2px solid #ccc;
+	margin-top: 2.375rem; /*38px*/
+}
+.header__text{
+	max-width: 41rem;
+	font-weight: 300;
+	margin-top: 2.5rem;/*40px*/
+}
+.header__download{
+	/*@TODO: Тип и размер шрифта*/
+	color: #ccc;
+	background-color: inherit;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	padding: 1rem 3rem;
+	margin-top: 2.875rem;/*46px*/
+	display: inline-block;
+	margin-bottom: 8.75rem;/*140px*/
+}
+
+
+.header__form{
+	margin-top:8.75rem;/*140px*/
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: "Open Sans", sans-serif;
+	border: none;
+}
+.header__form__input{
+	border-top: none;
+	border-left: 1px solid #d6d6d6;
+	border-right: 1px solid #d6d6d6;
+	margin-top: 1.875rem; /*30px*/
+	margin-bottom: 1.875rem; /*30px*/
+}
+.my-text-warning{
+	color: #ff8b38;	
+}
+
+.header__form__submit{
+	/* background-color: #ff9b51; */
+}
+
+.header__form__footer{
+	background-color: #ff9b51; 	
+	color: #fff;
+}
+/*------------------------------------------------------------
+ * Social Network
+ */
+.sn-panel{
+	display: flex;
+	justify-content: space-between;
+  	/*justify-content: center;*/
+  	align-items: center;
+	height: 100%;
+}
