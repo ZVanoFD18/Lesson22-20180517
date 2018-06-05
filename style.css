@@ -160,3 +160,10 @@ serif - с засечками
 	 border-radius: 50%;
 	 color : #dd7327;
  }
+ /*------------------------------------------------------------
+ * STANDARD PICTURE SECTION
+ */
+.psc__container{
+	padding: 30px;
+	border: 1px solid red;
+}
